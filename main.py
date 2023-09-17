@@ -1,7 +1,8 @@
 import requests
-def print_hi(name):
-    print(f'Hello, {name}!')
+def main():
+    r = requests.get('https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?drug_name=diphenhydramine')
+    print(r.text)
 
 
 if __name__ == '__main__':
-    print_hi('World')
+    main()
