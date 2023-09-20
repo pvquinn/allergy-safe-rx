@@ -1,4 +1,14 @@
 # ToDo/Goals/Notes
+
+## Next steps:
+- Put requested setids in a list 
+- Iterate over list to get other API information for each drug
+## Future steps:
+-  Figure out a way to get the inactive ingredient data
+- Collect inactive ingredient data
+- Filter based on allergen inactive ingredients
+    - (Once here, only request full API information from filtered results to reduce API calls)
+- Make a display for filtered results
 ## Map relevant API endpoints
 - `https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.xml?drug_name={<NameQuery>}`
     - spls
